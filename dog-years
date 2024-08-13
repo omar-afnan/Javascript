@@ -1,0 +1,21 @@
+let myAge = 22; 
+// We have a variable named myAge and we assign the value 22 to that variable.
+
+let earlyYears = 2;
+// The value 2 is saved to the variable called earlyYears.
+
+earlyYears *= 10.5;
+// Multiply earlyYears by 10.5 to account for the first two years of a dog's life.
+
+let laterYears = myAge - 2;
+// Subtract 2 from myAge and assign the result to the variable laterYears.
+
+laterYears *= 4;
+// Multiply laterYears by 4 to calculate the number of dog years accounted for by your later years.
+
+let myAgeInDogYears = earlyYears + laterYears;
+// Add earlyYears and laterYears to calculate myAgeInDogYears.
+
+let myName = "Omar".toLowerCase();
+
+console.log(`My name is ${myName}. I am ${myAge} years old in human years, which is ${myAgeInDogYears} years old in dog years.`);
