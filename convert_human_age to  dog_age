@@ -1,0 +1,8 @@
+let myAge = 22;
+let myDogHumanRatio = 7  // 1 year  of human is 7 year in a dog 
+
+
+ let myDogAge = myAge * myDogHumanRatio;
+
+
+console.log(myDogAge);
